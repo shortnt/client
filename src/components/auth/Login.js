@@ -1,14 +1,14 @@
 import React from "react";
 import { useState } from "react";
-import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import { Container as ContainerBase } from "components/misc/Layouts";
+import AnimationRevealPage from "../src/helpers/AnimationRevealPage.js";
+import { Container as ContainerBase } from "../src/components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {css} from "styled-components/macro"; //eslint-disable-line
-import logo from "images/logo.svg";
+import logo from "../src/images/logo.svg";
 import { ReactComponent as LoginIcon } from "feather-icons/dist/icons/log-in.svg";
 import GoogleLogin from "react-google-login";
-import Home from 'components/auth/Home';
+import Home from '../src/components/auth/Home';
 
 const Container = tw(ContainerBase)`min-h-screen bg-blue-600 text-white font-medium flex justify-center -m-8`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;

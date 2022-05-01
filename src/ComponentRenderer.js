@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AnimationRevealPage from "helpers/AnimationRevealPage.js"
-import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
-import SaaSProductLandingPageImageSrc from "images/demo/SaaSProductLandingPage.jpeg";
+import AnimationRevealPage from "../src/helpers/AnimationRevealPage.js"
+import SaaSProductLandingPage from "../src/demos/SaaSProductLandingPage.js";
+import SaaSProductLandingPageImageSrc from "../src/images/demo/SaaSProductLandingPage.jpeg";
 
 
 
