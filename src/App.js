@@ -11,7 +11,7 @@ import DashboardPage from "components/dashboard/pages/DashboardPage";
 import FilesComponent from "components/dashboard/components/added/FilesComponent";
 
 
-import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
+import SaaSProductLandingPage from "../src/demos/SaaSProductLandingPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
