@@ -3,12 +3,12 @@ import "tailwindcss/dist/base.css";
 import "../src/styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import Login from 'components/auth/Login.js';
-import SignUp from 'components/auth/SignUp.js';
-import MainLayout from "components/dashboard/components/Layout/MainLayout";
+import Login from '../src/components/auth/Login.js';
+import SignUp from '../src/components/auth/SignUp.js';
+import MainLayout from "../src/components/dashboard/components/Layout/MainLayout";
 import './styles/reduction.scss';
-import DashboardPage from "components/dashboard/pages/DashboardPage";
-import FilesComponent from "components/dashboard/components/added/FilesComponent";
+import DashboardPage from "../src/components/dashboard/pages/DashboardPage";
+import FilesComponent from "../src/components/dashboard/components/added/FilesComponent";
 
 
 import SaaSProductLandingPage from "../src/demos/SaaSProductLandingPage.js";
