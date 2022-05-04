@@ -1,4 +1,4 @@
-import { Content, Footer, Header, Sidebar } from '../components/dashboard/components/Layout';
+import { Content, Footer, Header, Sidebar } from '../Layout';
 import React from 'react';
 import {
   MdImportantDevices,
@@ -6,8 +6,9 @@ import {
   MdLoyalty,
 } from 'react-icons/md';
 import NotificationSystem from 'react-notification-system';
-import { NOTIFICATION_SYSTEM_STYLE } from '../components/dashboard/utils/constants';
-import DashboardPage from "../components/dashboard/pages/DashboardPage";
+import { NOTIFICATION_SYSTEM_STYLE } from '../../utils/constants';
+import DashboardPage from "../../pages/DashboardPage";
+
 
 class MainLayout extends React.Component {
   static isSidebarOpen() {
