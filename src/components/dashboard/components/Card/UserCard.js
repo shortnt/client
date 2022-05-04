@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect,useState } from 'react';
-import PropTypes from '../components/dashboard/utils/propTypes';
+import PropTypes from '../../utils/propTypes';
 
 import classNames from 'classnames';
 

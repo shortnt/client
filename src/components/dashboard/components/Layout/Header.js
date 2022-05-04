@@ -1,9 +1,9 @@
-import Avatar from '../components/dashboard/components/Avatar';
-import { UserCard } from '../components/dashboard/components/Card';
-import Notifications from '../components/dashboard/components/Notifications';
-import SearchInput from '../components/dashboard/components/SearchInput';
-import { notificationsData } from '../components/dashboard/demos/header';
-import withBadge from '../components/dashboard/hocs/withBadge';
+import Avatar from '../../components/Avatar';
+import { UserCard } from '../../components/Card';
+import Notifications from '../../components/Notifications';
+import SearchInput from '../../components/SearchInput';
+import { notificationsData } from '../../demos/header';
+import withBadge from '../../hocs/withBadge';
 import { Redirect } from 'react-router-dom';
 import React from 'react';
 import {useState, useEffect} from 'react';
@@ -30,7 +30,7 @@ import {
   Popover,
   PopoverBody,
 } from 'reactstrap';
-import bn from '../components/dashboard/utils/bemnames';
+import bn from '../../utils/bemnames';
 
 const bem = bn.create('header');
 

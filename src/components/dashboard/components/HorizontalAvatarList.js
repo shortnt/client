@@ -1,7 +1,7 @@
-import Avatar from '../components/dashboard/components/Avatar';
+import Avatar from '../components/Avatar';
 import React, { Fragment } from 'react';
 import { UncontrolledTooltip } from 'reactstrap';
-import PropTypes from '../components/dashboard/utils/propTypes';
+import PropTypes from '../utils/propTypes';
 
 const HorizontalAvatarList = ({
   tag: Tag,

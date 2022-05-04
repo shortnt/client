@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from '../components/dashboard/utils/propTypes';
+import PropTypes from '../../utils/propTypes';
 
 import { Card, CardText, CardTitle, Progress } from 'reactstrap';
 import Typography from '../Typography';
