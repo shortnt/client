@@ -107,32 +107,6 @@ const Sidebar = () => {
 
   const handleClick = () => {
 
-    
-    <Link to="/">  </Link>
-
-    // window.scrollTo(0, 0);
-    // let s = '';
-    // for(let i=0;i<log.length;i++){
-    //   if(i==0 || i==log.length-1){
-    //     continue;
-    //   }
-    //   s+=log.charAt(i);
-
-    // }
-
-    // fetch(process.env.REACT_APP_API+"socialuser/"+s)
-    // .then((res)=>res.json())
-    // .then((data) => {
-    //   fetch(process.env.REACT_APP_API+"folders/"+data.uid)
-    //   .then((res)=>res.json())
-    //   .then((data) => {
-    //     setUserData(data)
-    //     setLen(data.length)
-    //     console.log("testing....")
-    //     })
-    //   .catch((error)=>console.log(error));
-    // })
-    // .catch((err)=> console.log(err))
   };
 
 
