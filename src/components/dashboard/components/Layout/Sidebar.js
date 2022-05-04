@@ -36,7 +36,7 @@ import {
   NavItem,
   NavLink as BSNavLink,
 } from 'reactstrap';
-import bn from 'components/dashboard/utils/bemnames';
+import bn from '../../utils/bemnames';
 
 const sidebarBackground = {
   backgroundImage: `url("")`,
