@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'components/dashboard/utils/propTypes';
+import PropTypes from '../components/dashboard/utils/propTypes';
 
 import { Media } from 'reactstrap';
 
-import Typography from 'components/dashboard/components/Typography';
+import Typography from '../components/dashboard/components/Typography';
 
 const ProductMedia = ({ image, title, description, right, ...restProps }) => {
   return (

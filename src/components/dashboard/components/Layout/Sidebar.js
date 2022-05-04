@@ -1,6 +1,6 @@
 // import logo200Image from 'assets/img/logo/logo_200.png';
 // import sidebarBgImage from 'assets/img/sidebar/sidebar-4.jpg';
-import SourceLink from 'components/dashboard/components/SourceLink';
+import SourceLink from '../components/dashboard/components/SourceLink';
 import React from 'react';
 import {useEffect,useState} from 'react';
 import { FaGithub } from 'react-icons/fa';

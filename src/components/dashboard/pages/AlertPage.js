@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/href-no-hash */
-
-import Page from 'components/Page';
-import Typography from 'components/Typography';
+// /* eslint-disable jsx-a11y/href-no-hash */
+import Page from '../components/Page';
+import Typography from '../components/Typography';
 import React from 'react';
 import {
   Alert,

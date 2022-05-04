@@ -1,5 +1,5 @@
 // import ChartJS from 'chart.js';
-import { getColor } from 'components/dashboard/utils/colors';
+import { getColor } from '../components/dashboard/utils/colors';
 
 export const getStackLineChart = ({ labels, data }) => canvas => {
   const ctx = canvas.getContext('2d');

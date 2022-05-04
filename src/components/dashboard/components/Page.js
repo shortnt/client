@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'components/dashboard/utils/propTypes';
+import PropTypes from '../components/dashboard/utils/propTypes';
 
-import bn from 'components/dashboard/utils/bemnames';
+import bn from '../components/dashboard/utils/bemnames';
 
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 

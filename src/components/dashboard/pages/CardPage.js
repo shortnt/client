@@ -3,10 +3,10 @@ import bg18Image from 'assets/img/bg/background_1920-18.jpg';
 import bg1Image from 'assets/img/bg/background_640-1.jpg';
 import bg3Image from 'assets/img/bg/background_640-3.jpg';
 import user1Image from 'assets/img/users/100_1.jpg';
-import { UserCard } from 'components/Card';
-import Page from 'components/Page';
-import { bgCards, gradientCards, overlayCards } from 'demos/cardPage';
-import { getStackLineChart, stackLineChartOptions } from 'demos/chartjs';
+import { UserCard } from '../components/Card';
+import Page from '../components/Page';
+import { bgCards, gradientCards, overlayCards } from '../demos/cardPage';
+import { getStackLineChart, stackLineChartOptions } from '../demos/chartjs';
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import {

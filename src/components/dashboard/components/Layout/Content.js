@@ -1,6 +1,6 @@
 import React from 'react';
 
-import bn from 'components/dashboard/utils/bemnames';
+import bn from '../components/dashboard/utils/bemnames';
 
 import { Container } from 'reactstrap';
 

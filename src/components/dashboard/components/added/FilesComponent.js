@@ -28,7 +28,7 @@ import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import ReactModalAdapter from "./ReactModalAdapter";
-import propTypes from "components/dashboard/utils/propTypes";
+import propTypes from "../components/dashboard/utils/propTypes";
 import { conditionallyUpdateScrollbar } from "reactstrap/lib/utils";
 import LinearProgress from '@mui/material/LinearProgress';
 

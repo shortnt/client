@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React from 'react';
 import { Card, CardBody, CardSubtitle, CardText, CardTitle } from 'reactstrap';
-import PropTypes from 'components/dashboard/utils/propTypes';
+import PropTypes from '../components/dashboard/utils/propTypes';
 import Avatar from '../Avatar';
 
 const AvatarCard = ({

@@ -10,7 +10,7 @@ import {
   Markers,
   ZoomableGroup,
 } from 'react-simple-maps';
-import { getColor } from 'components/dashboard/utils/colors';
+import { getColor } from '../components/dashboard/utils/colors';
 
 // const cityScale = scaleLinear()
 //   .domain([0, 37843000])
