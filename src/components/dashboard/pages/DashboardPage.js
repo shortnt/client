@@ -1,16 +1,15 @@
-import { AnnouncementCard, TodosCard } from '../components/dashboard/components/Card';
-import HorizontalAvatarList from '../components/dashboard/components/HorizontalAvatarList';
-import MapWithBubbles from '../components/dashboard/components/MapWithBubbles';
-import Page from '../components/dashboard/components/Page';
-import ProductMedia from '../components/dashboard/components/ProductMedia';
-import SupportTicket from '../components/dashboard/components/SupportTicket';
-import UserProgressTable from '../components/dashboard/components/UserProgressTable';
-import { IconWidget, NumberWidget } from '../components/dashboard/components/Widget';
-import { getStackLineChart, stackLineChartOptions } from '../components/dashboard/demos/chartjs';
-import AddFolderModal from '../components/added/AddFolderModal'
-import FilesComponent from '../components/added/FilesComponent';
+import { AnnouncementCard, TodosCard } from '../../dashboard/components/Card';
+import HorizontalAvatarList from '../../dashboard/components/HorizontalAvatarList';
+import MapWithBubbles from '../../dashboard/components/MapWithBubbles';
+import Page from '../../dashboard/components/Page';
+import ProductMedia from '../../dashboard/components/ProductMedia';
+import SupportTicket from '../../dashboard/components/SupportTicket';
+import UserProgressTable from '../../dashboard/components/UserProgressTable';
+import { IconWidget, NumberWidget } from '../../dashboard/components/Widget';
+import { getStackLineChart, stackLineChartOptions } from '../../dashboard/demos/chartjs';
+import AddFolderModal from '../../added/AddFolderModal'
+import FilesComponent from '../../added/FilesComponent';
 import TextField from '@mui/material/TextField';
-
 
 import {
   avatarsData,
@@ -19,7 +18,7 @@ import {
   supportTicketsData,
   todosData,
   userProgressTableData,
-} from '../components/dashboard/demos/dashboardPage';
+} from '../../dashboard/demos/dashboardPage';
 import React,{useEffect,useState} from 'react';
 import { Bar, Line } from 'react-chartjs-2';
 import {
@@ -48,7 +47,7 @@ import {
   ListGroupItem,
   Row,
 } from 'reactstrap';
-import { getColor } from '../components/dashboard/utils/colors';
+import { getColor } from '../../dashboard/utils/colors';
 import { CenterFocusStrong, LocalConvenienceStoreOutlined, SettingsInputSvideo } from '@material-ui/icons';
 import { boxSizing, maxWidth } from '@mui/system';
 
