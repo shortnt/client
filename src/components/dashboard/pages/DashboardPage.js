@@ -7,8 +7,8 @@ import SupportTicket from '../../dashboard/components/SupportTicket';
 import UserProgressTable from '../../dashboard/components/UserProgressTable';
 import { IconWidget, NumberWidget } from '../../dashboard/components/Widget';
 import { getStackLineChart, stackLineChartOptions } from '../../dashboard/demos/chartjs';
-import AddFolderModal from '../../added/AddFolderModal'
-import FilesComponent from '../../added/FilesComponent';
+import AddFolderModal from '../../dashboard/components/added/AddFolderModal'
+import FilesComponent from '../../dashboard/components/added/FilesComponent';
 import TextField from '@mui/material/TextField';
 
 import {
