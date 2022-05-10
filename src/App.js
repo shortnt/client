@@ -6,7 +6,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import Login from '../src/components/auth/Login.js';
 import SignUp from '../src/components/auth/SignUp.js';
 import MainLayout from "../src/components/dashboard/components/Layout/MainLayout";
-// import './styles/reduction.scss';
+import './styles/reduction.scss';
 import DashboardPage from "../src/components/dashboard/pages/DashboardPage";
 import FilesComponent from "../src/components/dashboard/components/added/FilesComponent";
 
