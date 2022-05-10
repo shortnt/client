@@ -105,7 +105,7 @@ const handleSubmit = async (event) => {
 
 const handleSuccess = async (data) => {
   console.log(data.profileObj.email);
-  const res = await fetch('http://localhost:8000/socialuser/',{
+  const res = await fetch(process.env.REACT_APP_API+'socialuser/',{
     method : 'POST',
     body : JSON.stringify({
       uid:null,
