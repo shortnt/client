@@ -2,7 +2,6 @@
   "name": "clientapp",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.17.12",
     "@babel/plugin-transform-runtime": "^7.17.0",
@@ -86,23 +85,6 @@
     "eject": "react-scripts eject",
     "deploy": "yarn build && netlify deploy --prod --dir=build",
     "serve": "serve -s build"
-  },
-  "jest": {
-    "testPathDirs": [
-      "__tests__"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "testFileExtensions": [
-      "es6",
-      "js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "es6"
-    ]
   },
   "eslintConfig": {
     "extends": "react-app",

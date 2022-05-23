@@ -72,13 +72,6 @@ export default function MaxWidthDialog() {
               width: 'fit-content',
             }}
           >
-            {/* <FormControlLabel
-              sx={{ mt: 1 }}
-              control={
-                <Switch checked={fullWidth} onChange={handleFullWidthChange} />
-              }
-              label="Full width"
-            /> */}
             <Button variant="outlined" onClick={handleClickOpen}>
             Text
        <TextModal></TextModal>

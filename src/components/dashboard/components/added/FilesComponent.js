@@ -7,7 +7,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Media from 'reactstrap/lib/Media';
-// import Page from 'components/dashboard/components/Page';
 import Page from "../../components/Page";
 import { BorderColor, LaptopWindows, LocalConvenienceStoreOutlined, Title } from '@material-ui/icons';
 import './AddFileModal';
@@ -394,48 +393,6 @@ const FilesComponent = (props) => {
   }
 
 
-  // const handleSubmitButton = (event) => {
-  //   event.preventDefault();
-  //   setshowLoading(true);
-
-  //   fetch(process.env.REACT_APP_API + 'audiosummary/', {
-  //     method: 'POST',
-  //     headers: {
-  //       'Accept': 'application/json',
-  //       'Content-Type': 'application/json'
-  //     },
-  //     body: JSON.stringify({
-  //       aid: null,
-  //       AudioFileName: audioFilename
-  //     })
-  //   })
-  //     .then(res => res.json())
-  //     .then((result) => {
-  //       // alert(result);
-
-  //       fetch(process.env.REACT_APP_API + 'audiosummary/')
-  //         .then((res) => res.json())
-  //         .then((data) => {
-  //           fetch(process.env.REACT_APP_API + 'audiosummary/' + data.length)
-  //             .then((res) => res.json())
-  //             .then((data) => {
-  //               setShow(true)
-  //               setAudioText(data.AudioText)
-  //               setAudioSummary(data.AudioSummary)
-  //               setshowLoading(false);
-
-  //             })
-  //             .catch((error) => console.log(error));
-  //         })
-  //         .catch((error) => console.log(error));
-
-  //     },
-  //       (error) => {
-  //         alert('Failed');
-  //       })
-  // }
-
-
 
   const handleFileSelectedButton = (event) => {
     event.preventDefault();
@@ -522,24 +479,6 @@ const FilesComponent = (props) => {
 
 
         <div style={{ display: "flex" }}>
-
-
-
-          {/* <button 
-  style={{ padding: "5px", marginLeft: "auto" ,marginTop:'auto',marginRight:'30px', borderRadius:'',backgroundColor:"yellow",position:'fixed',
-   bottom:'1%',right:'1%'}}
-   
->
-      <AddFileModal/>
-</button>  */}
-          {/* <button
-            style={{
-              padding: "10px", marginLeft: "auto", marginTop: 'auto', marginRight: '30px', borderRadius: '5px', backgroundColor: '#3182ce',
-              color: "white", position: 'fixed',
-              bottom: '1%', right: '1%'
-            }}
-            onClick={handleOpen}
-          >Add File </button> */}
           <button
       style={{ marginLeft: "auto" ,
        backgroundColor:"crimson",
@@ -562,7 +501,7 @@ const FilesComponent = (props) => {
 
 
         <Modal
-
+          data-testid="modal"
           open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"

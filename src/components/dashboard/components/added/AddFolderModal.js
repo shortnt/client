@@ -10,9 +10,6 @@ import AddIcon from '@material-ui/icons/Add';
 import { Brightness1 } from '@material-ui/icons';
 
 const AddFolderModal = (props) => {
-  // state = {
-  //   open: false,
-  // };
   const [open,setOpen] = useState(false);
   const [title,setTitle] = useState("");
   const [data,setData] = useState(props.data);
